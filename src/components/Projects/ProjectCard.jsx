@@ -38,6 +38,9 @@ const ProjectCard = (props) => {
         <Card.Text style={{ textAlign: "justify",fontSize:"15px" }}>
           {props.description}
         </Card.Text>
+        <Card.Text style={{ textAlign: "justify",fontSize:"15px" }}>
+            Teck Stack : {props.techStack}
+        </Card.Text>
         <Button
           variant="primary"
           href={props.ghLink}

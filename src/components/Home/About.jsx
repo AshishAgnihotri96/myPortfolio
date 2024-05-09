@@ -16,10 +16,7 @@ const About = () => {
               LET ME <span className="yellow"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hi, this is{" "}
-              <span className="yellow">Ashish Kumar Agnihotri </span>
-              from <span className="yellow"> Delhi, India.</span>
-              <br />
+            
               Greetings! A passionate web developer known for crafting engaging
               and user-centric digital experiences. With a background in
               computer science and a keen eye for design, the journey in the

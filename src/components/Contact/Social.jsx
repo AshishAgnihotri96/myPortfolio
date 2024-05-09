@@ -69,7 +69,7 @@ const Social = () => {
           <a rel="noreferrer" className="icon-color  contact-social-icons">
             <CiPhone />
           </a>
-          <h2 style={{ color: "wheat", marginLeft: "10px" }}>+91-8826572572</h2>
+          <h2 style={{ color: "wheat", marginLeft: "10px" }}>+91-8123192422</h2>
         </Container>
       </Row>
     </Container>

@@ -7,8 +7,7 @@ import Type from "../components/Home/Type";
 import Skillset from "./Skillset";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import NavBar from "../components/Navbar/Navbar";
-import Resume from "../assets/Ashish-Agnihotri-fw_17_0166.pdf"
+import Resume from "../assets/Ashish_Kumar_Agnihotri_Resume_full_stack.pdf";
 const Home = ({ activeTab }) => {
   const aboutRef = useRef(null);
   const skillset = useRef(null);
@@ -22,10 +21,10 @@ const Home = ({ activeTab }) => {
   const handleDownload = () => {
     // Replace 'resume.pdf' with the path to your resume file
     const resumeUrl = Resume;
-    
+
     downloadRef.current.href = resumeUrl;
     downloadRef.current.click();
-    window.open(resumeUrl, '_blank');
+    window.open(resumeUrl, "_blank");
   };
   // Scroll to the selected tab when the activeTab changes
   useEffect(() => {
@@ -39,12 +38,9 @@ const Home = ({ activeTab }) => {
       scrollToRef(projects);
     } else if (activeTab === "home") {
       window.scrollTo({ top: 0, behavior: "smooth" });
-    }  
-    else if (activeTab === "resume") {
-      handleDownload()
-    }  
-
-
+    } else if (activeTab === "resume") {
+      handleDownload();
+    }
   }, [activeTab]);
   return (
     <Container>
@@ -82,7 +78,7 @@ const Home = ({ activeTab }) => {
             </Row>
           </Container>
         </Container>
-        <a ref={downloadRef} href="#" style={{ display: 'none' }} download></a>
+        <a ref={downloadRef} href="#" style={{ display: "none" }} download></a>
         <section ref={aboutRef}>
           <About />
         </section>
