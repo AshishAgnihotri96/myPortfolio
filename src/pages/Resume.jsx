@@ -11,7 +11,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://raw.githubusercontent.com/AshishAgnihotri96/updatedResume/master/Ashish_Kumar_Agnihotri_Resume_full_stack.pdf`;
+const resumeLink = `https://raw.githubusercontent.com/AshishAgnihotri96/updatedResume/master/Ashish_Agnihotri_fw17_0166.pdf`;
 //https://raw.githubusercontent.com/AshishAgnihotri96/ResumeUpdated/main/blob/master/Ashish-Kumar-Agnihotri-updated-resume.pdf
 
 const Resume = () => {
