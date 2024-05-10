@@ -7,7 +7,7 @@ import Type from "../components/Home/Type";
 import Skillset from "./Skillset";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import Resume from "../assets/Ashish_Kumar_Agnihotri_Resume_full_stack.pdf";
+import Resume from "../assets/Ashish-Agnihotri-Resume-fw17_0166.pdf";
 const Home = ({ activeTab }) => {
   const aboutRef = useRef(null);
   const skillset = useRef(null);

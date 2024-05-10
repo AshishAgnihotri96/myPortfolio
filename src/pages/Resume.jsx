@@ -4,14 +4,14 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 
 import Particle from "../components/Particle";
-import pdf from "../assets/Ashish_Kumar_Agnihotri_Resume_full_stack.pdf";
+import pdf from "../assets/Ashish-Agnihotri-Resume-fw17_0166.pdf";
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://raw.githubusercontent.com/AshishAgnihotri96/updatedResume/master/Ashish_Agnihotri_fw17_0166.pdf`;
+const resumeLink = `https://raw.githubusercontent.com/AshishAgnihotri96/updatedResume/master/Ashish-Agnihotri-Resume-fw17_0166.pdf`;
 //https://raw.githubusercontent.com/AshishAgnihotri96/ResumeUpdated/main/blob/master/Ashish-Kumar-Agnihotri-updated-resume.pdf
 
 const Resume = () => {
